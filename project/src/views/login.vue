@@ -14,7 +14,7 @@
 				<el-col v-if="index==1" :xs="24" :sm="24" :md="24" :lg="24" :xl="24" class="input">
 					<label for="file" style="margin-left: 50%;transform: translate(-50%, 0)">
 						<div class="imgurl">
-							<img v-if='login_up.imgurl' :src="'http://192.168.43.57:3000/'+login_up.imgurl" class="image_box">
+							<img v-if='login_up.imgurl' :src="'http://localhost:3000/'+login_up.imgurl" class="image_box">
 							<input v-show="false" type="file" ref="file" id="file" @change='fileimg' accept="image/gif, image/jpeg">
 
 						</div>
